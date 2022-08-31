@@ -12,8 +12,8 @@ import {
 import theme, {} from './src/global/styles/theme';
 
 //import { Dashboard } from './src/screens/Dashboard';
-//import { Register } from './src/screens/Register';
-import { CategorySelect } from './src/screens/CategorySelect';
+import { Register } from './src/screens/Register';
+//import { CategorySelect } from './src/screens/CategorySelect';
 
 export default function App() {
   const [fontsLoaded] = useFonts({  
@@ -30,7 +30,7 @@ export default function App() {
     //Quem estiver dentro do contexto de ThemeProvider recebera as propriedades de Theme
     // o arquivo styled.d.ts serve para sobrescrever e fazer uma tipagem dos nossos styles globais
     <ThemeProvider theme={theme}>      
-      <CategorySelect />
+      <Register />
     </ThemeProvider>    
     //npm install @types/styled-components-react-native -D
     //instalar extenção vscode-styled-components 
