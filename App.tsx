@@ -46,6 +46,10 @@ export default function App() {
 
     //npm add react-native-iphone-x-helper
 
+    //aprendi a trabalhar com o recurso de tela MODAL
+    // vou aprender a trabalhar com REact Hook Form
+      //Excelente para controlar os estados dos campos apenas no clique do botão de submeter o formulario
+      // www.react-hook-form.com/get-started
   );
 }
 
