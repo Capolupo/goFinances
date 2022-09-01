@@ -19,8 +19,8 @@ import {
 } from "./styles";
 
 interface FormData{
-    name: string;
-    amount : string;
+    [name: string]:string;
+    //amount : string;
 }
 
 export function Register(){
