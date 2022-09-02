@@ -50,6 +50,10 @@ export default function App() {
     // vou aprender a trabalhar com REact Hook Form
       //Excelente para controlar os estados dos campos apenas no clique do botão de submeter o formulario
       // www.react-hook-form.com/get-started
+
+    //Para validar Campos podemos utilizar , o Yup é uma biblioteca sensacional para validação de formularios
+    //npm install @hookform/resolvers yup  
+
   );
 }
 
